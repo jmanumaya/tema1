@@ -25,7 +25,7 @@ public class Ejer4 {
 		// Recogemos los datos que introduce el usuario por teclado en dicha variable.
 		nota2 = sc.nextInt();
 
-		// Calculamos la nota media con los datos obtenidos por el usuario.
+		// Calculamos la nota media con los datos obtenidos por el usuario (PONGO 2.0 PARA FORZAR LOS DECIMALES).
 		double notaMedia = (nota1 + nota2) / 2.0;
 
 		// Le imprimimos por pantalla al usuario el resultado
