@@ -9,7 +9,7 @@ public class Ejer1 {
 		// Creo el scaner para que pueda recoger entrada de teclado.
 		Scanner sc = new Scanner (System.in);
 		
-		// Creo la variable number para luego albergar el número que escriba el usuario.
+		// Creo la variable number de tipo entero para luego albergar el número que escriba el usuario.
 		
 		int number;
 		
@@ -22,9 +22,8 @@ public class Ejer1 {
 		// Devuelvo en pantalla el número que el usuario ha introducido.
 		System.out.println(number);
 		
+		// Cierro el uso de escaner.
 		sc.close();
-
-		
 	}
 
 }

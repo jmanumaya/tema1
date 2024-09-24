@@ -9,7 +9,7 @@ public class Ejer6 {
 		// Creo el scaner para que pueda recoger entrada de teclado.
 		Scanner sc = new Scanner (System.in);
 		
-		// Creamos las variables para un futuro albergar datos.
+		// Creamos las variables de tipo numérico entero para un futuro albergar datos.
 		int num1;
 		int num2;
 		
@@ -19,7 +19,7 @@ public class Ejer6 {
 		System.out.print("Segundo número: ");
 		num2 = sc.nextInt();
 		
-		// Le imprimimos por pantalla el resultado del ejercicio.
+		// Le imprimimos por pantalla el resultado del ejercicio (de lo que le hemos dicho que hará el programa).
 		System.out.println("Resultados:");
 
 		System.out.println("Suma --> " + num1 + " + " + num2 + " = " + (num1 + num2));

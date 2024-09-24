@@ -10,11 +10,11 @@ public class Ejer7 {
 		Scanner sc = new Scanner (System.in);
 		
 		// Creamos las variables para albergar los datos posteriormente.
-		String name;
-		String address;
-		int number;
+		String name; // Cadena de caracteres.
+		String address; // Cadena de caracteres.
+		int number; // Variable numérica entera.
 		
-		// Le indicamos al usuario para que vaya introduciendo los datos.
+		// Le indicamos al usuario y él introduce los datos.
 		System.out.print("Buenas! Registra tus datos:\n Nombre: ");
 		name = sc.nextLine();
 		System.out.print("Dirección: ");
@@ -22,7 +22,7 @@ public class Ejer7 {
 		System.out.print("Número de teléfono: ");
 		number = sc.nextInt();
 		
-		// Le imprimimos en pantalla los resultados.
+		// Le imprimimos en pantalla los resultados que le pedimos al usuario.
 		System.out.println("Datos registrados satisfactoriamente!");
 		System.out.println("Nombre: " + name + "\nDirección: " + address + "\nNumero de teléfono: " + number);
 

@@ -9,12 +9,12 @@ public class Ejer9 {
 		// Iniciamos el escaner.
 		Scanner sc = new Scanner (System.in);
 		
-		// Variable que indica si es mayor de edad.
+		// Variable booleana que indicará si es mayor de edad.
 		boolean over18;
-		//Variable para guardar edad.
+		//Variable para guardar la edad que introduzca el usuario.
 		int edad;
 		
-		// Le indicamos al usuario.
+		// Le indicamos al usuario y nos da el dato.
 		System.out.print("Hola! dime tu edad: ");
 		edad = sc.nextInt();
 		

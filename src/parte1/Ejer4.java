@@ -9,7 +9,7 @@ public class Ejer4 {
 		// Creo el scaner para que pueda recoger entrada de teclado.
 		Scanner sc = new Scanner(System.in);
 
-		// Creo las variable para albergar los datos que el usuario nos introduzca.
+		// Creo las variable de tipo entero para albergar los datos que el usuario nos introduzca.
 		int nota1;
 		int nota2;
 		

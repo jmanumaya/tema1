@@ -9,7 +9,7 @@ public class Ejer3 {
 		// Creo el scaner para que pueda recoger entrada de teclado.
 		Scanner sc = new Scanner (System.in);
 		
-		// Creo las variable para albergar los datos que el usuario nos introduzca.
+		// Creo las variable de tipo entero para albergar los datos que el usuario nos introduzca.
 		int anoActual;
 		int anoNacimiento;
 		
@@ -25,7 +25,7 @@ public class Ejer3 {
 		// Recogemos los datos que el usuario tiene que introducir en dicha variable.
 		anoNacimiento =  sc.nextInt();
 		
-		// Imprimimos por pantalla el resultado.
+		// Imprimimos por pantalla el resultado al usuario.
 		System.out.println("Tienes: " + (anoActual - anoNacimiento) + " años");
 		
 		// Cerramos el uso del escaner.
