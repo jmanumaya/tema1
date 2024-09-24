@@ -12,6 +12,7 @@ public class Ejer4 {
 		// Creo las variable para albergar los datos que el usuario nos introduzca.
 		int nota1;
 		int nota2;
+		
 
 		// Le indicamos al usuario por pantalla
 		System.out.println("Hola! Voy a calcular tu nota media.\nIntroduce una nota:");
