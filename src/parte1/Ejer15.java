@@ -20,7 +20,7 @@ public class Ejer15 {
 		
 		// Calcular el precio con IVA
         double precioFinal = precio * (1 + IVA / 100);
-
+        
 		// Le devuelvo al usuario el resultado de lo que le dije que haría el programa.
 		System.out.println("El precio total (IVA incluido) sería: " + precioFinal + " Euros");
 		
