@@ -1,33 +1,38 @@
 package parte1;
+
 import java.util.Scanner;
 
 public class Ejer14 {
 
     public static void main(String[] args) {
     	
-    	
+		// Inicio el escaner para poder usarlo.
         Scanner sc = new Scanner(System.in);
         
-        System.out.println();
-        // Solicitar las notas de los tres trimestres
+        // Declaro las variables para albergar el dato que de el usuario.
+        int nota1;
+        int nota2;
+        int nota3;
+        
+		// Le indicamos al usuario lo que tiene que hacer y lo que hará el programa.
+        System.out.println("Buenas, voy a calcular tu nota media del curso.");
         System.out.print("Introduce la nota del primer trimestre: ");
-        int nota1 = sc.nextInt();
-
+        nota1 = sc.nextInt(); // Entrada del usuario por consola para albergar el valor en la variable.
         System.out.print("Introduce la nota del segundo trimestre: ");
-        int nota2 = sc.nextInt();
-
+        nota2 = sc.nextInt(); // Entrada del usuario por consola para albergar el valor en la variable.
         System.out.print("Introduce la nota del tercer trimestre: ");
-        int nota3 = sc.nextInt();
+        nota3 = sc.nextInt(); // Entrada del usuario por consola para albergar el valor en la variable.
 
-        // Calcular la media
+        // Operación para calcular la nota media.
         double media = (nota1 + nota2 + nota3) / 3.0;
 
-        // Mostrar la media truncada para el boletín de calificaciones (parte entera)
+        // Mostramos por pantalla la nota media truncada.
         System.out.println("Nota media para el boletín de calificaciones: " + (int) media);
 
-        // Mostrar la media con decimales para el expediente académico
+        // Mostramos por pantalla la nota media exacta del expediente.
         System.out.printf("Nota media para el expediente académico: %.2f\n", media);
 
+        // Cerramos uso del escaner.
         sc.close();
     }
 }
