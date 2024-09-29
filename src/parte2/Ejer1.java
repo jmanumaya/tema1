@@ -2,13 +2,13 @@ package parte2;
 import java.util.Scanner;
 
 /*PARA QUE SE ENTIENDA::::::     Básicamente esta lógica consiste en hacer que cuando el usuario meta un número, nosotros trunquemos dicho número haciendo el redondeo -----
- * 								 entonces en el momento que el usuario mete un 2.3 por ejemplo, nosotros sumamos 0.5 y como no llegaría a 3 o mas entonces al hacer el trunqueo es 2 ------
- * 								 si el usuario metiese un número que sea 2.5 o superior, al hacer la suma de 0.5 daría 3 o superior y al hacer el trunqueo pues haría dicho redondeo ------
+ * 				 entonces en el momento que el usuario mete un 2.3 por ejemplo, nosotros sumamos 0.5 y como no llegaría a 3 o mas entonces al hacer el trunqueo es 2 ------
+ * 				 si el usuario metiese un número que sea 2.5 o superior, al hacer la suma de 0.5 daría 3 o superior y al hacer el trunqueo pues haría dicho redondeo ------
  * 
- * 								 Ejemplo:	Si el usuario mete un 2.3, le sumamos 0.5 y truncamos. El resultado sería 2 y así se haría el redondeo hacia abajo.
- * 											Si el usuario mete un 2.7 le sumamos 0.5 y truncamos. El resultado sería 3 y así se haría el redondeo hacia arriba.	
+ * 				 Ejemplo:	Si el usuario mete un 2.3, le sumamos 0.5 y truncamos. El resultado sería 2 y así se haría el redondeo hacia abajo.
+ * 						Si el usuario mete un 2.7 le sumamos 0.5 y truncamos. El resultado sería 3 y así se haría el redondeo hacia arriba.	
  * 
- * 								 ESPERO QUE SE HAYA ENTENDIDO PORQUE ESTA HA SIDO DE LAS UNICAS FORMAS QUE HE SABIDO HACERLO (NO SE SI HAY OTRA).   */
+ * 				 ESPERO QUE SE HAYA ENTENDIDO PORQUE ESTA HA SIDO DE LAS UNICAS FORMAS QUE HE SABIDO HACERLO (NO SE SI HAY OTRA).   */
 
 public class Ejer1 {
 
