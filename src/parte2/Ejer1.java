@@ -31,6 +31,7 @@ public class Ejer1 {
 		// Muestro el número redondeado del usuario por pantalla.
 		System.out.println("El número redondeado es: " + redondeado);
 
+		// Cierro uso de escaner.
 		sc.close();
 	}
 
