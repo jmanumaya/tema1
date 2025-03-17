@@ -34,7 +34,7 @@ public class Ejer7 {
 		total = (total0 >= 100) ? total0 - (total0 * 0.05) : total0;
 		
 		// Le imprimo por pantalla el resultado al usuario o lo que le valdrá la entrada.
-		System.out.println("El precio de tus entradas sería: " + total);
+		System.out.println("El precio de tus entradas sería: " + total + "€");
 		
 		// Cierro uso de escaner.
 		sc.close();
